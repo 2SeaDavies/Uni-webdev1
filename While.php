@@ -25,6 +25,19 @@ while ($count < 30) {
         $mugs -=1;
 
     }
+    elseif (($num ==1) && ($specs >0)){
+        print "<p>specs are available</p>";
+        $specs -=1;
+
+    }
+    elseif (($num ==2) && ($sausage >0)){
+        print "<p>sausages are available</p>";
+        $sausage -=1;
+
+    }
+    else {
+        print "<p> nothing is available </p>";
+    }
     $count++;
 
 }
