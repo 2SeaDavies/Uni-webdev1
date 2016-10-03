@@ -15,7 +15,7 @@
 
 
 for ($i = 1; $i<30; $i++)
-{ print "<p> on the $i of the month </p>";
+{ print "<p> on day $i of the month </p>";
     $printlist = array();
     if ($i % 2 == 0) {
         $printlist[] = "Specs";
