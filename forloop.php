@@ -19,7 +19,6 @@ for ($i = 1; $i<30; $i++)
     $printlist = array();
     if ($i % 2 == 0) {
         $printlist[] = "Specs";
-
     }
     if ($i % 3 == 0 ) {
         $printlist[] ="Mugs";    }
@@ -27,7 +26,7 @@ for ($i = 1; $i<30; $i++)
         $printlist[] ="Sausage Rolls";
     }
     else {
-        $printlist{} ="no products";
+        $printlist[] ="no products";
     }
     foreach ($printlist as $x) {
         print "<p> $x</p>";
