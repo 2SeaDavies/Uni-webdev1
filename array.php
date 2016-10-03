@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEW TITLE</title>
+</head>
+<body>
 <?php
 /**
  * Created by PhpStorm.
@@ -19,3 +26,6 @@ unset($provisioned_activities[2]);
 foreach ($provisioned_activities as $x) {
     print "<p>$x</p>p>";
 }
+?>
+</body>
+</html>
