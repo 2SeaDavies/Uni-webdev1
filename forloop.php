@@ -25,7 +25,7 @@ for ($i = 1; $i<30; $i++)
     if ($i % 4 ==0) {
         $printlist[] ="Sausage Rolls";
     }
-    else {
+    elseif (!($i %2==0)&&!($i%3==0)&&(!$i%4==0)) {
         $printlist[] ="no products";
     }
     foreach ($printlist as $x) {
