@@ -22,7 +22,9 @@ while ($count < 30) {
     print "<p> on day $count </p>";
     if (($num ==0) && ($mugs >0)){
         print "<p>mugs are available</p>";
+
     }
+    $count++;
 
 }
 
